@@ -1,0 +1,33 @@
+Mastering Sliding Window Pattern
+The Sliding Window technique is one of the most powerful ways to optimize brute force solutions when dealing with contiguous subarrays or substrings.
+
+1️⃣ Intuition Behind Sliding Window
+When solving a problem, the brute-force approach often involves nested loops to check all possible subarrays/substrings. This results in O(N²) or worse time complexity.
+
+💡 Key Observation:
+
+If we are checking all possible contiguous subarrays, we are repeating unnecessary calculations.
+Instead of recomputing everything from scratch, we can reuse previous computations by moving a window forward.
+⚡ Think of it like this:
+
+You are looking through a magnifying glass at a large text. Instead of scanning the entire text from the beginning each time, you shift the magnifying glass one step forward, keeping most of the previous view intact.
+
+2️⃣ When to Apply Sliding Window?
+Look for these clues in the problem statement: ✅ The problem involves a subarray or substring.
+✅ The question mentions contiguous elements.
+✅ The brute-force solution involves nested loops with overlapping computations.
+✅ The problem requires max/min/sum/count within a subarray of size k.
+
+3️⃣ Types of Sliding Window Problems
+1️⃣ Fixed Size Sliding Window – When the window size is given or fixed (e.g., "Find the max sum of any subarray of size k").
+2️⃣ Variable Size Sliding Window – When the window expands and contracts dynamically (e.g., "Find the smallest subarray with sum ≥ S").
+3️⃣ Two Pointers Variant – Sometimes, Sliding Window merges with the Two Pointers approach.
+
+Step-by-Step Plan for Mastering Sliding Window
+📌 Step 1: Understand the Need for Sliding Window (Done ✅)
+📌 Step 2: Learn Fixed-Size Sliding Window (Done ✅)
+📌 Step 3: Practice Basic Problems on Fixed-Size Window (We’ll do this next)
+📌 Step 4: Understand Variable-Size Sliding Window
+📌 Step 5: Practice Problems on Variable-Size Window
+📌 Step 6: Handle Edge Cases & Optimizations
+📌 Step 7: Solve Complex Sliding Window Problems

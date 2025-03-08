@@ -2,16 +2,16 @@
 from tree_creation import root
 
 
-# def in_order_travalsal(root, travalsal_list):
-#     if root is None:
-#         return travalsal_list
-#     in_order_travalsal(root.left, travalsal_list)
-#     travalsal_list.append(root.val)
-#     in_order_travalsal(root.right, travalsal_list)
-#     return travalsal_list
-#
-#
-# print(in_order_travalsal(root, []))
+def in_order_travalsal(root, travalsal_list):
+    if root is None:
+        return travalsal_list
+    in_order_travalsal(root.left, travalsal_list)
+    travalsal_list.append(root.val)
+    in_order_travalsal(root.right, travalsal_list)
+    return travalsal_list
+
+
+print(in_order_travalsal(root, []))
 
 
 # pythonic way for inorder travalsal
