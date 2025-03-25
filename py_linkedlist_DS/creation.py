@@ -31,7 +31,7 @@ for i in range(len(node_list)-1):
     node_list[i].next = node_list[i+1]
 
 # dynamic linking of node created by dict comprehension
-for i in range(1, len(node_dict)-1):
+for i in range(1, len(node_dict)):
     node_dict[f'node_{i}'].next = node_dict[f'node_{i+1}']
 # printing linkedList
 head = node_list[0]
