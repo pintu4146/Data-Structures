@@ -23,7 +23,7 @@ def insertion(original_ll_head: Node, index: int, data: int) -> Node:
     """
     count = custom_len(original_ll_head)
     new_node = Node(data)
-    if index >= count:
+    if index > count:
         raise IndexError('Index out of bound error')
     if index == 0:
         new_node.next = original_ll_head
@@ -50,5 +50,5 @@ if __name__ == '__main__':
 
     # insertion at given index
 
-    disply_ll_highlight(node_list[0], insertion(node_list[0], 3, 100), 'inserting at any position and printing node')
+    disply_ll_highlight(node_list[0], insertion(node_list[0], 1, 100), 'inserting at any position and printing node')
 #

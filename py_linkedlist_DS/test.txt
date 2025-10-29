@@ -1,0 +1,16 @@
+
+
+
+
+
+dep, emp
+
+select emp.salary
+
+from emp left join dep on dep.id == emp.id
+group by dep.id, emp.salary
+order by emp.salary DESC
+Limit 3.
+
+
+employee_list.stream().collect(Collectors.groupBy())
