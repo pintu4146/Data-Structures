@@ -6,8 +6,11 @@ class Solution:
 
     def countDigits(self, n):
         return self.helper(n, 0)
-        # code here
+
 
 
 sol = Solution()
 print(sol.countDigits(12345))
+# The solution uses tail recursion to count digits.
+# Time Complexity: O(log10(n)) because we divide n by 10 in each step.
+# Space Complexity: O(log10(n)) due to the recursion stack depth.
