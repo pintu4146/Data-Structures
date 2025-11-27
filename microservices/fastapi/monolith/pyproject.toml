@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "monolith"
+version = "0.1.0"
+description = "Monolithic FastAPI Service"
+authors = ["Monolith Team <team@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "*"
+uvicorn = "*"
+pydantic = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

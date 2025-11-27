@@ -1,2 +1,50 @@
-fastapi_service/venv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+microservices/fastapi/monolith/app/__pycache__
+microservices/fastapi/monolith/app/services/__pycache__
+microservices/fastapi/monolith/app/routers/__pycache__
+
+
+
+microservices/fastapi/monolith/app/__pycache__
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+myvenv/
+
 microservices/fastapi/monolith/myvenv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Poetry (do NOT ignore poetry.lock!)
+# poetry.lock should be committed
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
