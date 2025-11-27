@@ -11,6 +11,10 @@ fastapi = "*"
 uvicorn = "*"
 pydantic = "*"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+requests = "*"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
