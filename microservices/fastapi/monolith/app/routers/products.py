@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
-from ..models import Product
-from ..services.product_service import ProductService
+from app.models import Product
+from app.services.product_service import ProductService
 from typing import List
 
 router = APIRouter()

@@ -38,6 +38,48 @@ Thumbs.db
 
 # Poetry (do NOT ignore poetry.lock!)
 # poetry.lock should be committed
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+microservices/fastapi/monolith/app/__pycache__
+microservices/fastapi/monolith/app/services/__pycache__
+microservices/fastapi/monolith/app/routers/__pycache__
+
+
+
+microservices/fastapi/monolith/app/__pycache__
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+myvenv/
+
+microservices/fastapi/monolith/myvenv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+
+microservices/fastapi/monolith/.env.development
+microservices/fastapi/monolith/.env.stagging
+microservices/fastapi/monolith/.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Poetry (do NOT ignore poetry.lock!)
+# poetry.lock should be committed
 
 # Testing
 .pytest_cache/
@@ -48,3 +90,7 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+
+# Logs (if file logging is enabled locally)
+logs/
+*.log

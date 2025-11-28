@@ -1,5 +1,5 @@
-from ..database import db
-from ..models import Product
+from app.db import db
+from app.models import Product
 from typing import List, Optional
 
 class ProductService:

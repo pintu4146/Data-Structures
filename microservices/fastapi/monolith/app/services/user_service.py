@@ -1,5 +1,5 @@
-from ..database import db
-from ..models import User
+from app.db import db
+from app.models import User
 from typing import Optional
 
 class UserService:

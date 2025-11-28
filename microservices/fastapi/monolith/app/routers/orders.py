@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
-from ..models import Order
-from ..services.order_service import OrderService
+from app.models import Order
+from app.services.order_service import OrderService
 
 router = APIRouter()
 

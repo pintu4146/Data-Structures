@@ -9,7 +9,8 @@ package-mode = false
 python = "^3.10"
 fastapi = "*"
 uvicorn = "*"
-pydantic = "*"
+pydantic = {extras = ["email"], version = "^2.12.5"}
+pydantic-settings = "*"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"

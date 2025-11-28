@@ -1,5 +1,5 @@
-from ..database import db
-from ..models import Order
+from app.db import db
+from app.models import Order
 from typing import Optional
 
 class OrderService:
