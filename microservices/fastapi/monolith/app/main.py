@@ -43,6 +43,7 @@ app.include_router(orders.router)
 
 @app.get("/")
 def read_root():
+    logger.info("Received request to root endpoint")
     return {
         "message": f"Welcome to {settings.app_name}",
         "version": settings.app_version,
@@ -52,4 +53,5 @@ def read_root():
 @app.get("/health")
 def health_check():
     """Health check endpoint for container orchestration."""
+    logger.info("Received request to health check endpoint")
     return {"status": "healthy", "environment": settings.environment}
